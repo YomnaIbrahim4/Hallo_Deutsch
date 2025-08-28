@@ -14,7 +14,6 @@ class ScreenWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
         appBar: AppBar(
-            backgroundColor: Colors.black,
             title:AppBarWidget(title: barTitle)
         ),
         body: ListView.builder(

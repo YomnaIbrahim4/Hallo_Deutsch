@@ -15,10 +15,7 @@ class AppBarWidget extends StatelessWidget {
               child: Image(image:AssetImage('assets/images/app_icons/ic_german.png'),)),
           Text(
             title,
-            style: TextStyle(
-                color: Colors.white,
-              fontSize: 30
-            ),
+            style: Theme.of(context).appBarTheme.titleTextStyle,
           ),
           Container(
               height: 50,
